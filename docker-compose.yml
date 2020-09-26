@@ -6,4 +6,4 @@ services:
       context: ./rusteroids
     volumes:
       - ./rusteroids:/usr/src/rusteroids
-    command: sleep 5000
+    command: cargo run
