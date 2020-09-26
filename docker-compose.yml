@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  pong:
+    build:
+      context: ./rusteroids
+    volumes:
+      - ./rusteroids:/usr/src/rusteroids
+    command: sleep 5000
