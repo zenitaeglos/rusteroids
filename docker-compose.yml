@@ -1,7 +1,7 @@
 version: '2.1'
 
 services:
-  pong:
+  rusteroids:
     build:
       context: ./rusteroids
     volumes:
